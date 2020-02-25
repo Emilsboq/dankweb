@@ -12,12 +12,20 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/dark-mode.css">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
     <title>Dankweb</title>
 </head>
 
-<body>
+<div id="preloader">
+    <div id="loader"></div>
+</div>
+
+
+
+<body onload="myFunction()" style="margin:0;">
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Navbar</a>
@@ -58,6 +66,7 @@
     </nav>
 
 
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -69,23 +78,23 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.5/lib/darkmode-js.min.js"></script>
-        <script>
-          new Darkmode().showWidget();
-          var options = {
-        bottom: '64px', // default: '32px'
-        right: 'unset', // default: '32px'
-        left: '32px', // default: 'unset'
-        time: '0.5s', // default: '0.3s'
-        mixColor: '#ffffff', // default: '#fff'
-        backgroundColor: '#ffffff',  // default: '#fff'
-        buttonColorDark: '#100f2c',  // default: '#100f2c'
-        buttonColorLight: '#fff', // default: '#fff'
-        saveInCookies: false, // default: true,
-        label: '🌓', // default: ''
-        autoMatchOsTheme: true // default: true
-      }
-        </script>
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.5/lib/darkmode-js.min.js"></script>
+    <script>
+        new Darkmode().showWidget();
+        var options = {
+            bottom: '64px', // default: '32px'
+            right: 'unset', // default: '32px'
+            left: '32px', // default: 'unset'
+            time: '0.5s', // default: '0.3s'
+            mixColor: '#ffffff', // default: '#fff'
+            backgroundColor: '#ffffff',  // default: '#fff'
+            buttonColorDark: '#100f2c',  // default: '#100f2c'
+            buttonColorLight: '#fff', // default: '#fff'
+            saveInCookies: false, // default: true,
+            label: '🌓', // default: ''
+            autoMatchOsTheme: true // default: true
+        }
+    </script>
 
 </body>
 
