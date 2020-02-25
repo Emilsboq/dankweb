@@ -1,1 +1,24 @@
+.btn.btn-social-icon.btn-twitter:hover {
+    transform: scale(1.5);
+    transition: transform .2s;
+}
 
+.nav-link:hover {
+    transform: scale(1.2);
+    transition: transform .2s;
+}
+darkmode--activated p, .darkmode--activated li {
+    color: #000;
+  }
+  
+  .button {
+    isolation: isolate;
+  }
+  
+  .darkmode--activated .logo {
+    mix-blend-mode: difference;
+  }
+
+  .darkmode-layer, .darkmode-toggle {
+    z-index: 500;
+  }
