@@ -1,0 +1,28 @@
+{
+  "name": "dankweb",
+  "version": "1.0.0",
+  "description": "Repo for my first website.",
+  "main": "index.js",
+  "dependencies": {
+    "@dogstudio/highway": "^2.1.3",
+    "bootstrap": "^4.4.1",
+    "darkmode-js": "^1.5.5",
+    "gsap": "^3.2.0",
+    "install": "^0.13.0",
+    "npm": "^6.13.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emilsboq/dankweb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Emilsboq/dankweb/issues"
+  },
+  "homepage": "https://github.com/Emilsboq/dankweb#readme"
+}
