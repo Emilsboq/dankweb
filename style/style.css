@@ -105,9 +105,3 @@ darkmode--activated p, .darkmode--activated li {
     /* the rest of your styling */
 }
 
-.container {
-    width: 100%;
-    position: fixed;
-    left: 45%;
-    margin-left: -200px;
-}
