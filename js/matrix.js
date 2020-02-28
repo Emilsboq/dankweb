@@ -48,3 +48,4 @@ var c = document.getElementById("c");
         }
         
         setInterval(draw, 33);
+        // put this in index.js <canvas id="c"></canvas> and <script src="./js/matrix.js"></script>
